@@ -1,0 +1,20 @@
+1.A vírus egy olyan program amely képes önmagát másolni, adathordozókon, hálózaton keresztül.
+Soha nem önmagában indul el. Mindig kell egy program vagy makrókat tartalmazó állomány, amely hordozza. Vírus: 1969 Fred Cohen
+Diploma munkája volt a feltevése.
+3 részből áll 1. Reprodukciós rutin: Keres egy célállományt és az okosabbak megvizsgálják hogy fertőzőtt-e? Vizsgálódik és szaporodik
+	      2. Aktivizlódási feltétel ellenőrző rutin: Megvizsgálja egy adott feltétel teljesül-e hogy elindítsa a romboló rutint (pl:NUKE)
+	      3. Kártevő rutin: 
+viszont vannak olyan vírusok amik nem válogatnak hanem mindenhova beleírják magukat és megtöltik a winchestert
+vírusokból létzett a polimorph vírusok ami nem csak ugyanazt a kódot másolta hanem át is írta  sajátját és máshogy nézett ki ( összezavarás )
+
+2.Féreg: Egy önálló program önmagában indul el, képes másolni önmagát hálózatokon keresztül, rongálásra, információ gyűjtésre használják nem lehet észrevenni
+3. Trójai program: olyan önálló program ami hasznosnak mutatja magát de a háttérben káros tevékenységet végez, a felhasználó tölti le, másolja le, telepíti tudatosan
+   És futtatja pl: fájlkezelés, vírusírtás, analizáló szoftver, optimalizáló, média lejátszó
+   minden adatot elvisz
+4.Spyware: Kémprogram, olyan szoftverek amelyek önállóan futnak gépünkön háttérben és küldenek információt gazdáiknak, vagy mi telepítjük mint a trójaiakat de ez egy önálló
+program a hasznos programból töltődik le belülről, féreg is telepítheti
+5.Adver: reklám programok interneten tölthetjük le, futásuk kellemetlenséget okoz a felugró ablakkal (reklám)
+6.Ransomware: zsarolóvírusok, titkosít fájlokat mappákat, meghajtókat, harvereket
+
+Védekezés: Tűzfal: arra szolgál hogy a hálózaton lévő ki és be meneteket szabályozza a szállítási rétegen, a portokat kezeljük vele, hálózati forgalmat ellenőrzi
+	   Csak belülről lehet kinyitni
